@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Educación</title>
+  </head>
+  <body>
+    <header>
+    <svg width="150px" height="150px">
+    <image xlink:href="../img/logo.svg" width="150px" height="150px" />
+    </svg>
+    <h1>Hoja de vida</h1>
+    <h2>Jorge Guzmán Castro</h2>
+    <h3>28 de mayo de 1990, Bogotá, Colombia</h3>
+    <navbar>
+      <a href="../index.html">Inicio</a>   |
+      <a href="educacion.html">Educación</a>  |
+      <a href="experiencia.html">Experiencia</a>
+    </navbar>
+  </header>
+  <h2>Estudios</h2>
+  <table border="1" cellpading="10" cellspacing="0">
+    <thead>
+      <tr>
+      <th height="30px" width="50px" >Año</th>
+      <th height="30px" width="100px">Institución</th>
+      <th height="30px" width="80px">Lugar</th>
+      <th height="30px" width="90px">¿Culminó?</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2008</td>
+        <td >Gimnasio William Mackinley</td>
+        <td >Bogotá</td>
+        <td >Si</td>
+      </tr>
+      <tr>
+        <td height="30px">2017</td>
+        <td height="30px">Politecnico Grancolombiano</td>
+        <td height="30px">Bogotá</td>
+        <td height="30px">Si</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3>Agregar estudios</h3>
+  <form>
+    <p>
+    <select>
+      <option>2017</option>
+      <option>2016</option>
+      <option>2015</option>
+      <option>2014</option>
+      <option>2013</option>
+      <option>2012</option>
+      <option>2011</option>
+      <option>2010</option>
+      <option>2009</option>
+      <option>2008</option>
+      <option>2007</option>
+      <option>2006</option>
+      <option>2005</option>
+      <option>2004</option>
+      <option>2003</option>
+    </select>
+   </p>
+   <p>
+      <label for="institucion"><strong> Institución</strong></label>
+      <input type="text" name="institucion" required>
+  </p>
+  <p>
+      <label for="Lugar"><strong>Lugar</strong></label>
+      <textarea name="Lugar" rows="2" cols="30"></textarea>
+  </p>
+  <p>
+      <label for="culmino">¿Culminó?</label>
+      <input type="radio" name="culmino"> Si
+        <input type="radio" name="culmino"> no
+    </p>
+    <input type="submit" name="enviar" value="enviar">
+  </form>
+  <footer>
+   <p>@. jorgeguzmancastro@hotmail.com</p>
+   <p>t. 3165387534</p>
+   <p>d. calle 78 # 8 - 51, Bogotá</p>
+  </footer>
+  </body>
+</html>
